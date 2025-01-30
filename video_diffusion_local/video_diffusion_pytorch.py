@@ -18,7 +18,7 @@ from einops_exts import check_shape, rearrange_many
 
 from rotary_embedding_torch import RotaryEmbedding
 
-from video_diffusion_pytorch.text import tokenize, bert_embed, BERT_MODEL_DIM
+from video_diffusion_local.text import tokenize, bert_embed, BERT_MODEL_DIM
 
 # helpers functions
 
